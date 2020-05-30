@@ -12,3 +12,5 @@ Assumes you have gcloud CLI installed
 
 - gcloud builds submit --tag gcr.io/{{PROJECT-ID}}/go-grab-xkcd
 - gcloud run deploy --image gcr.io/{{PROJECT-ID}}/go-grab-xkcd --platform managed
+
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
